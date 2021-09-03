@@ -1,0 +1,64 @@
+.chat_window{
+  position: absolute;
+  width: calc(100% - 20px);
+  max-width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.title{
+  text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color:rgb(64, 21, 105);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.message_input_wrapper{
+  display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #bcbdc0;
+    width: calc(100% - 160px);
+    position: relative;
+    padding: 0 20px
+}
+.message_input{
+  border: none;
+  height: 100%;
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  position: absolute;
+  outline-width: 0;
+  color: gray
+}
+li{
+  font-size:25px;
+}
+.send_message{
+  font-size: 22px;
+  width: 140px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color:rgb(64, 21, 105);;
+    border: rgb(64, 21, 105) solid 2px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    
+}
+.message_input{
+  font-size: 22px;
+}
